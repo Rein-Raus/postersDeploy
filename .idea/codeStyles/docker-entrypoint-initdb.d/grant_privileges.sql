@@ -1,0 +1,3 @@
+-- Назначение привилегий пользователю my_user
+GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO my_user;
+GRANT USAGE, SELECT ON SEQUENCE users_id_seq TO my_user;
